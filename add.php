@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
 
 
 <section class="container grey-text">
-	<h4 class="center">Add a Pizza</h4>
+	<h4 class="center">Add a Flower</h4>
 	<form class="white" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
 		<label>Name of Flower</label>
 		<input required type="text" name="nameOfFlower" value="<?php echo htmlspecialchars($nameOfFlower) ?>">
